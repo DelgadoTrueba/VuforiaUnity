@@ -4,29 +4,28 @@ using UnityEngine;
 
 public class Orbita : MonoBehaviour {
 
-	float timeCounter;
+	public float timeCounter;
 
-	public float speed;
+	private float speed;
 
 	public float posX;
 	public float posZ;
 
 	// Use this for initialization
 	void Start () {
-		timeCounter = 0f;
+		/*timeCounter = 0f;*/
 
-		/*speed = 1f;*/
-	
-		if (posX == 0.02f) {
-			timeCounter = 1f;
+		speed = 1;
+
+		if (posX == 0.015f) {
+			timeCounter += 0f;
 		}
-		if (posX == 0.04) {
-			timeCounter = 1.5f;
+		if (posX == 0.0225f) {
+			timeCounter += 2.25f;
 		}
-		if (posX == 0.06f) {
-			timeCounter = 1.75f;
+		if (posX == 0.030f) {
+			timeCounter += 1.25f;
 		}	
-
 	}
 	
 	// Update is called once per frame
