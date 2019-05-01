@@ -168,7 +168,7 @@ Transform:
   m_LocalScale: {x: 0.050007693, y: 0.050007693, z: 0.050007693}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &711625903
 MonoBehaviour:
@@ -181,9 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2423f0d55c1e7448b0a4084264d1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCounter: 3.2125
-  posX: 0.0225
-  posZ: 0.0225
+  timeCounter: 0
+  orbita: 0.225
 --- !u!23 &711625904
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -267,7 +266,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &787560384
 MonoBehaviour:
@@ -281,8 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeCounter: 0
-  posX: 0.0225
-  posZ: 0.0225
+  orbita: 0.225
 --- !u!23 &787560385
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -366,7 +364,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1008023014
 MonoBehaviour:
@@ -380,8 +378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeCounter: 0
-  posX: 0.03
-  posZ: 0.03
+  orbita: 0.3
 --- !u!23 &1008023015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -549,12 +546,12 @@ Transform:
   m_LocalScale: {x: 0.090986, y: 0.090986, z: 0.090986}
   m_Children:
   - {fileID: 1977998819}
-  - {fileID: 1008023013}
-  - {fileID: 787560383}
   - {fileID: 2022978405}
   - {fileID: 1682674154}
-  - {fileID: 711625902}
+  - {fileID: 1008023013}
   - {fileID: 1134776251}
+  - {fileID: 787560383}
+  - {fileID: 711625902}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -588,7 +585,7 @@ Transform:
   m_LocalScale: {x: 0.050007693, y: 0.050007693, z: 0.050007693}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1134776252
 MonoBehaviour:
@@ -601,9 +598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2423f0d55c1e7448b0a4084264d1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCounter: 3.2125
-  posX: 0.03
-  posZ: 0.03
+  timeCounter: 0
+  orbita: 0.3
 --- !u!23 &1134776253
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -882,7 +878,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1682674155
 MonoBehaviour:
@@ -895,9 +891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2423f0d55c1e7448b0a4084264d1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeCounter: 3.2125
-  posX: 0.015
-  posZ: 0.015
+  timeCounter: 0
+  orbita: 0.15
 --- !u!23 &1682674156
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1164,7 +1159,7 @@ Transform:
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 1012302442}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2022978406
 MonoBehaviour:
@@ -1178,8 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeCounter: 0
-  posX: 0.015
-  posZ: 0.015
+  orbita: 0.15
 --- !u!23 &2022978407
 MeshRenderer:
   m_ObjectHideFlags: 0
