@@ -22,7 +22,7 @@ public class Orbita : MonoBehaviour {
 		posicionInicial += Time.deltaTime * speed;
 
 		float x = Mathf.Cos (posicionInicial) * orbita;
-		float y = 0.030f;
+		float y = 0.025f;
 		float z = Mathf.Sin (posicionInicial) * orbita;
 
 		transform.position = new Vector3 (x, y, z);
