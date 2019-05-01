@@ -157,7 +157,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.Company.CDI_PRACTUCA2
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -244,7 +245,7 @@ PlayerSettings:
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  AndroidTVCompatibility: 1
+  AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -267,7 +268,7 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
   - m_BuildTarget: Android
-    m_Enabled: 0
+    m_Enabled: 1
   - m_BuildTarget: iOS
     m_Enabled: 0
   - m_BuildTarget: Metro
