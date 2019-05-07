@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -483,7 +483,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: tresDeOrosMaterial
+  m_Name: carbonoMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -496,7 +496,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d98f39f943904eb1a3a7fa505fb062ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3fcfee91bbb4121a4163cf6b00c7cd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1044,15 +1044,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: tresDeOros
+  mTrackableName: carbono
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/ARTest_images.xml
+  mDataSetPath: Vuforia/PracticaAR.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5164334
+  mAspectRatio: 1.5081968
   mImageTargetType: 0
-  mWidth: 0.06
-  mHeight: 0.090986
+  mWidth: 0.059673913
+  mHeight: 0.09
 --- !u!4 &1012302442
 Transform:
   m_ObjectHideFlags: 0
@@ -1061,7 +1061,7 @@ Transform:
   m_GameObject: {fileID: 1012302436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.090986, y: 0.090986, z: 0.090986}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 2022978405}
   - {fileID: 1682674154}
@@ -1334,7 +1334,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.32972106, y: 0, z: 0.5}
+      m_Extent: {x: 0.33152172, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1387,7 +1387,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 33d1a8be00000000000000bf000000000000803f00000000000000000000000033d1a8be000000000000003f000000000000803f00000000000000000000803f33d1a83e00000000000000bf000000000000803f000000000000803f0000000033d1a83e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 37bda9be00000000000000bf000000000000803f00000000000000000000000037bda9be000000000000003f000000000000803f00000000000000000000803f37bda93e00000000000000bf000000000000803f000000000000803f0000000037bda93e000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0

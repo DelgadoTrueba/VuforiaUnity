@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - PracticaAR
     - ARTest_images
     dataSetsToActivate:
+    - PracticaAR
     - ARTest_images
   videoBackground:
     clippingMode: 0
