@@ -24,6 +24,7 @@ public class initOrbita : MonoBehaviour {
             electron[i].transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);
            
 			Orbita orbit = electron[i].AddComponent<Orbita>();
+			orbit.atomo = parent;
 
 			if (i < electronesCapaK)
             {

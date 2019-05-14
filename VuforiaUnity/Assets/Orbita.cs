@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Orbita : MonoBehaviour {
 
+	public GameObject atomo;
+
 	public float posicionInicial;
 
 	private float speed;
@@ -25,6 +27,7 @@ public class Orbita : MonoBehaviour {
 		float y = 0.025f;
 		float z = Mathf.Sin (posicionInicial) * orbita;
 
-		transform.position = new Vector3 (x, y, z);
+
+		transform.position = new Vector3 (x, y, z) + atomo.transform.position;
 	}
 }
