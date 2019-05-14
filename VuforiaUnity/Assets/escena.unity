@@ -3355,7 +3355,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: carbonoMaterial
+  m_Name: oxigenoMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3368,7 +3368,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e3fcfee91bbb4121a4163cf6b00c7cd7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 566f0e5c3bef4dcf974bf770fbddacb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6909,8 +6909,6 @@ GameObject:
   - component: {fileID: 1012302438}
   - component: {fileID: 1012302437}
   - component: {fileID: 1012302443}
-  - component: {fileID: 1012302446}
-  - component: {fileID: 1012302445}
   m_Layer: 0
   m_Name: Carbono
   m_TagString: Untagged
@@ -7031,36 +7029,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1441240794}
---- !u!114 &1012302445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012302436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTarget: {fileID: 1362873426}
-  molecula: {fileID: 170853971}
-  selfAtomo: {fileID: 958488015}
-  otherAtomo: {fileID: 1680452085}
---- !u!114 &1012302446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1012302436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTarget: {fileID: 71652883}
-  molecula: {fileID: 1262961399}
-  selfAtomo: {fileID: 958488015}
-  otherAtomo: {fileID: 1429880069}
 --- !u!1 &1023871162
 GameObject:
   m_ObjectHideFlags: 0
@@ -10028,7 +9996,6 @@ GameObject:
   - component: {fileID: 1452562277}
   - component: {fileID: 1452562276}
   - component: {fileID: 1452562282}
-  - component: {fileID: 1452562283}
   m_Layer: 0
   m_Name: Cloro
   m_TagString: Untagged
@@ -10147,21 +10114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 997431265}
---- !u!114 &1452562283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1452562275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTarget: {fileID: 1435734953}
-  molecula: {fileID: 151589917}
-  selfAtomo: {fileID: 49308830}
-  otherAtomo: {fileID: 423912563}
 --- !u!1 &1467854112
 GameObject:
   m_ObjectHideFlags: 0
@@ -10858,7 +10810,6 @@ GameObject:
   - component: {fileID: 1571728354}
   - component: {fileID: 1571728353}
   - component: {fileID: 1571728359}
-  - component: {fileID: 1571728360}
   m_Layer: 0
   m_Name: Nitrogeno
   m_TagString: Untagged
@@ -10977,21 +10928,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1120681425}
---- !u!114 &1571728360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1571728352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTarget: {fileID: 71652883}
-  molecula: {fileID: 1831828357}
-  selfAtomo: {fileID: 1499948959}
-  otherAtomo: {fileID: 1429880069}
 --- !u!1 &1572216088
 GameObject:
   m_ObjectHideFlags: 0
