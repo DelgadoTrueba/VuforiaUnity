@@ -8,6 +8,7 @@ public class ControladorMoleculas : MonoBehaviour {
 	public GameObject targetOxigeno;
 	public GameObject targetHidrogeno;
 	public GameObject targetCarbono;
+	public GameObject targetNitrogeno;
 
 	//Molecula de Agua
 	public bool isOxigeno;
@@ -19,11 +20,17 @@ public class ControladorMoleculas : MonoBehaviour {
 	//public bool isHidrogeno;
 	public GameObject moleculaDeMetano;
 
+	//Molecula de Amoniaco
+	public bool isNitrogeno;
+	//public bool isHidrogeno;
+	public GameObject moleculaDeAmoniaco;
+
 
 	// Atomos
 	private GameObject atomoOxigeno;
 	private GameObject atomoHidrogeno;
 	private GameObject atomoCarbono;
+	private GameObject atomoNitrogeno;
 
 
 	// Use this for initialization
@@ -31,10 +38,13 @@ public class ControladorMoleculas : MonoBehaviour {
 		isOxigeno = false;
 		isHidrogeno = false;
 		isCarbono = false;
+		isNitrogeno = false;
+
 
 		atomoOxigeno = targetOxigeno.transform.GetChild (0).gameObject;
 		atomoHidrogeno = targetHidrogeno.transform.GetChild (0).gameObject;
 		atomoCarbono = targetCarbono.transform.GetChild (0).gameObject;
+		atomoNitrogeno = targetNitrogeno.transform.GetChild (0).gameObject;	
 	}
 
 	// Update is called once per frame
@@ -70,15 +80,32 @@ public class ControladorMoleculas : MonoBehaviour {
 				moleculaDeMetano.SetActive (true);
 			} 
 		}
+		else if(condicionesNecesariasMoledulaDeAmoniaco())
+		{
+			Vector3 posNitrogeno = targetNitrogeno.transform.position;
+			Vector3 posHidrogeno = targetHidrogeno.transform.position;
+
+			if (distanciaMinimaParaGenerarMoledula(posNitrogeno, posHidrogeno))
+			{
+				moleculaDeAmoniaco.transform.position = 
+					calcularPtoMedio (posNitrogeno, posHidrogeno);
+
+				atomoNitrogeno.SetActive (false);
+				atomoHidrogeno.SetActive (false);
+				moleculaDeAmoniaco.SetActive (true);
+			} 
+		}
 		else 
 		{
 			moleculaDeAgua.SetActive(false);
 			moleculaDeMetano.SetActive (false);
+			moleculaDeAmoniaco.SetActive (false);
 
 
 			atomoOxigeno.SetActive(true);
 			atomoHidrogeno.SetActive(true);
 			atomoCarbono.SetActive (true);
+			atomoNitrogeno.SetActive (true);
 		}
 
 
@@ -90,6 +117,10 @@ public class ControladorMoleculas : MonoBehaviour {
 		
 	private bool condicionesNecesariasMoledulaDeMetano(){
 		return this.isCarbono && this.isHidrogeno;
+	}
+
+	private bool condicionesNecesariasMoledulaDeAmoniaco(){
+		return this.isNitrogeno && this.isHidrogeno;
 	}
 
 	private Vector3 calcularPtoMedio(Vector3 posTarget1, Vector3 posTarget2){
