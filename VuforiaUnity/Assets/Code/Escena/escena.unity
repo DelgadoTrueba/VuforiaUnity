@@ -894,7 +894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &166675995
 Transform:
   m_ObjectHideFlags: 0
@@ -1270,7 +1270,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233345613}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.025847994, y: 0.005922107, z: 0.0621}
+  m_LocalPosition: {x: 0.201, y: 0.005922107, z: -0.0164}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 441229544}
@@ -3061,7 +3061,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431440024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.438, y: 0, z: 0}
+  m_LocalPosition: {x: -0.016999722, y: 0, z: 0}
   m_LocalScale: {x: 0.362, y: 0.362, z: 0.362}
   m_Children: []
   m_Father: {fileID: 2110428484}
@@ -3145,7 +3145,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 441229543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5499997, y: 0, z: 0}
+  m_LocalPosition: {x: 0.01, y: 0, z: 0}
   m_LocalScale: {x: 0.304, y: 0.304, z: 0.304}
   m_Children: []
   m_Father: {fileID: 233345614}
@@ -5117,7 +5117,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 724275281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.685, y: 0, z: 0}
+  m_LocalPosition: {x: 0.14500019, y: 0, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_Children: []
   m_Father: {fileID: 233345614}
@@ -5533,6 +5533,8 @@ MonoBehaviour:
   targetHidrogeno: {fileID: 71652883}
   targetCarbono: {fileID: 1012302436}
   targetNitrogeno: {fileID: 1571728352}
+  targetSodio: {fileID: 1435734953}
+  targetCloro: {fileID: 1452562275}
   isOxigeno: 0
   isHidrogeno: 0
   moleculaDeAgua: {fileID: 1004256900}
@@ -5540,6 +5542,10 @@ MonoBehaviour:
   moleculaDeMetano: {fileID: 1445725667}
   isNitrogeno: 0
   moleculaDeAmoniaco: {fileID: 166675994}
+  moleculaDeMonoxidoDeCarbono: {fileID: 233345613}
+  isSodio: 0
+  isCloro: 0
+  moleculaDeSalComun: {fileID: 2110428483}
 --- !u!4 &812024222
 Transform:
   m_ObjectHideFlags: 0
@@ -7887,7 +7893,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053363313}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.685, y: 0, z: 0}
+  m_LocalPosition: {x: 0.23, y: 0, z: 0}
   m_LocalScale: {x: 0.462, y: 0.462, z: 0.462}
   m_Children: []
   m_Father: {fileID: 2110428484}
@@ -10847,6 +10853,7 @@ GameObject:
   - component: {fileID: 1435734955}
   - component: {fileID: 1435734954}
   - component: {fileID: 1435734960}
+  - component: {fileID: 1435734961}
   m_Layer: 0
   m_Name: Sodio
   m_TagString: Untagged
@@ -10964,6 +10971,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 694640258}
+--- !u!114 &1435734961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435734953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63bfce9129be05b4dbc3be29d09eca1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorMoleculas: {fileID: 812024220}
 --- !u!1 &1441240794
 GameObject:
   m_ObjectHideFlags: 0
@@ -11205,6 +11224,7 @@ GameObject:
   - component: {fileID: 1452562277}
   - component: {fileID: 1452562276}
   - component: {fileID: 1452562282}
+  - component: {fileID: 1452562283}
   m_Layer: 0
   m_Name: Cloro
   m_TagString: Untagged
@@ -11322,6 +11342,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 997431265}
+--- !u!114 &1452562283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1452562275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64bda7eb10fc9dd4fb6066ec42b2a3fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorMoleculas: {fileID: 812024220}
 --- !u!1 &1467854112
 GameObject:
   m_ObjectHideFlags: 0
@@ -14678,7 +14710,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2110428483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17615199, y: 0.005922107, z: 0.008999996}
+  m_LocalPosition: {x: 0.407, y: 0.005922107, z: -0.019}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 431440025}
