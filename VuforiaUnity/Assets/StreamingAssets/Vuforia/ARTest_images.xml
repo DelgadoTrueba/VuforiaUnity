@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="9_OROS" size="0.060000 0.090929" />
+    <ImageTarget name="8_OROS" size="0.060000 0.091781" />
+    <ImageTarget name="6_OROS" size="0.060000 0.090691" />
+    <ImageTarget name="4_OROS" size="0.060000 0.092195" />
+    <ImageTarget name="2_OROS" size="0.060000 0.092864" />
     <ImageTarget name="tresDeOros" size="0.060000 0.090986" />
   </Tracking>
 </QCARConfig>

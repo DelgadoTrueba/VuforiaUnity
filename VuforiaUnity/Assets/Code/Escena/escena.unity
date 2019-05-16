@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -242,17 +242,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 67344434}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.7}
-  m_LocalScale: {x: -11.11111, y: 3.8514986, z: 11.111108}
+  m_LocalScale: {x: -11.111111, y: 3.8514988, z: 11.111109}
   m_Children:
   - {fileID: 1170116501}
   - {fileID: 456170118}
   - {fileID: 836416279}
   - {fileID: 870214524}
   - {fileID: 1956990642}
-  m_Father: {fileID: 71652889}
-  m_RootOrder: 0
+  m_Father: {fileID: 1429880070}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -337,11 +337,11 @@ GameObject:
   - component: {fileID: 71652889}
   - component: {fileID: 71652888}
   - component: {fileID: 71652887}
-  - component: {fileID: 71652892}
   - component: {fileID: 71652886}
   - component: {fileID: 71652885}
   - component: {fileID: 71652884}
   - component: {fileID: 71652890}
+  - component: {fileID: 71652891}
   m_Layer: 0
   m_Name: Hirdogeno
   m_TagString: Untagged
@@ -423,15 +423,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: hidrogeno
+  mTrackableName: 2_OROS
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PracticaAR.xml
+  mDataSetPath: Vuforia/ARTest_images.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5081968
+  mAspectRatio: 1.5477333
   mImageTargetType: 0
-  mWidth: 0.059673913
-  mHeight: 0.09
+  mWidth: 0.060000002
+  mHeight: 0.092864
 --- !u!4 &71652889
 Transform:
   m_ObjectHideFlags: 0
@@ -440,12 +440,11 @@ Transform:
   m_GameObject: {fileID: 71652883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.092864, y: 0.092864, z: 0.092864}
   m_Children:
-  - {fileID: 67344435}
   - {fileID: 1429880070}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &71652890
 MonoBehaviour:
@@ -459,7 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 67344434}
---- !u!114 &71652892
+--- !u!114 &71652891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -467,10 +466,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 71652883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0947e4851a5046b4ea3f4e60a4e681f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b82281bbc28aba4e98862539f2d6a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 0}
+  controladorMoleculas: {fileID: 812024220}
 --- !u!1 &74144341
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +495,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 74144341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.55, y: 0, z: 0}
+  m_LocalPosition: {x: 0.026709214, y: 0, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_Children: []
   m_Father: {fileID: 1445725668}
@@ -903,15 +902,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 166675994}
   m_LocalRotation: {x: 0.9259839, y: -0.0014014583, z: 0.3775436, w: -0.0035675415}
-  m_LocalPosition: {x: -2.5222218, y: 0.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.121847995, y: 0.005922107, z: 0.008999996}
+  m_LocalScale: {x: 0.09, y: 0.09000003, z: 0.090000056}
   m_Children:
   - {fileID: 991620056}
   - {fileID: 1211546462}
   - {fileID: 922910403}
   - {fileID: 1088214929}
-  m_Father: {fileID: 1571728358}
-  m_RootOrder: 2
+  m_Father: {fileID: 812024222}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180.318, y: -44.364014, z: 0.30299377}
 --- !u!1 &172395578
 GameObject:
@@ -1271,7 +1270,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233345613}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.025847994, y: 0.005922107, z: 0.008999996}
+  m_LocalPosition: {x: -0.025847994, y: 0.005922107, z: 0.0621}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 441229544}
@@ -1369,7 +1368,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: hidrogenoMaterial
+  m_Name: 2_OROSMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1382,7 +1381,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 98f409ee9a794a34838a0930db89d4ba, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21d0744641f447f7870f6fa1c4f21b3c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1898,7 +1897,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d9cc804eb1b24b54b8990f24415c3de6, type: 2}
+  - {fileID: 2100000, guid: ba9fb7af4e0ecd94cbe1808807a5a02d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2669,7 +2668,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &398035959
 GameObject:
@@ -3166,7 +3165,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d9cc804eb1b24b54b8990f24415c3de6, type: 2}
+  - {fileID: 2100000, guid: ba9fb7af4e0ecd94cbe1808807a5a02d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3710,7 +3709,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: cloroMaterial
+  m_Name: carbonoMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3723,7 +3722,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 81c9904fcb474a3da0be540ef9103dd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3fcfee91bbb4121a4163cf6b00c7cd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -5512,9 +5511,8 @@ GameObject:
   m_Component:
   - component: {fileID: 812024222}
   - component: {fileID: 812024221}
-  - component: {fileID: 812024223}
   m_Layer: 0
-  m_Name: moleculas
+  m_Name: ControladorMoleculas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5528,14 +5526,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 812024220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
+  m_Script: {fileID: 11500000, guid: 30c078bc2aed04c4cb8bbe8659fc2803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageTarget1: {fileID: 1362873426}
-  imageTarget2: {fileID: 71652883}
-  molecula: {fileID: 1004256900}
-  atomo1: {fileID: 1680452085}
-  atomo2: {fileID: 1429880069}
+  targetOxigeno: {fileID: 1362873426}
+  targetHidrogeno: {fileID: 71652883}
+  targetCarbono: {fileID: 1012302436}
+  isOxigeno: 0
+  isHidrogeno: 0
+  moleculaDeAgua: {fileID: 1004256900}
+  isCarbono: 0
+  moleculaDeMetano: {fileID: 1445725667}
 --- !u!4 &812024222
 Transform:
   m_ObjectHideFlags: 0
@@ -5543,33 +5544,18 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 812024220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09484803, y: 0.025577893, z: -0.008999996}
+  m_LocalPosition: {x: 0.09484803, y: 0.025577893, z: 0.117}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2110428484}
   - {fileID: 828253603}
   - {fileID: 233345614}
-  - {fileID: 1445725668}
+  - {fileID: 166675995}
   - {fileID: 1004256901}
+  - {fileID: 1445725668}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &812024223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812024220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d702e0b3e43da419b7a27f2580727d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imageTarget1: {fileID: 1435734953}
-  imageTarget2: {fileID: 1452562275}
-  molecula: {fileID: 2110428483}
-  atomo1: {fileID: 423912563}
-  atomo2: {fileID: 49308830}
 --- !u!1 &817508366
 GameObject:
   m_ObjectHideFlags: 0
@@ -6976,6 +6962,7 @@ Transform:
   m_Children:
   - {fileID: 1050781366}
   - {fileID: 1764415783}
+  - {fileID: 1441240795}
   m_Father: {fileID: 1012302442}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7443,16 +7430,16 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 994784120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.69999987}
-  m_LocalScale: {x: -11.11111, y: 3.8514433, z: 11.111109}
+  m_LocalPosition: {x: 0, y: 0, z: -0.6999998}
+  m_LocalScale: {x: -11.11111, y: 3.851443, z: 11.111108}
   m_Children:
   - {fileID: 852971651}
   - {fileID: 716753111}
   - {fileID: 1217065549}
   - {fileID: 783013914}
   - {fileID: 971252330}
-  m_Father: {fileID: 1362873432}
-  m_RootOrder: 1
+  m_Father: {fileID: 1680452086}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7578,7 +7565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004256901}
   m_Layer: 0
-  m_Name: moleculaAgua
+  m_Name: MoleculaAgua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7591,7 +7578,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004256900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20515198, y: 0.0059221033, z: 0.008999996}
+  m_LocalPosition: {x: 0.20515198, y: 0.0059221033, z: -0.0365}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 293406133}
@@ -7614,6 +7601,7 @@ GameObject:
   - component: {fileID: 1012302438}
   - component: {fileID: 1012302437}
   - component: {fileID: 1012302443}
+  - component: {fileID: 1012302444}
   m_Layer: 0
   m_Name: Carbono
   m_TagString: Untagged
@@ -7715,9 +7703,8 @@ Transform:
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 958488016}
-  - {fileID: 1441240795}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1012302443
 MonoBehaviour:
@@ -7731,6 +7718,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: {fileID: 1441240794}
+--- !u!114 &1012302444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1012302436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a7187f80fec2947951edceacd548b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorMoleculas: {fileID: 812024220}
 --- !u!1 &1023871162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8053,7 +8052,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1074152654}
   m_LocalRotation: {x: -0, y: -0, z: -0.24982555, w: 0.96829087}
-  m_LocalPosition: {x: 2.4542909, y: 0.059266433, z: -0.10199993}
+  m_LocalPosition: {x: -0.069, y: 0.059266433, z: -0.10199993}
   m_LocalScale: {x: 0.24, y: 0.24, z: 0.24}
   m_Children: []
   m_Father: {fileID: 1445725668}
@@ -9509,7 +9508,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1225629139}
   m_LocalRotation: {x: -0, y: -0, z: 0.25134388, w: 0.96789783}
-  m_LocalPosition: {x: 2.4544766, y: -0.05960243, z: 0.10199993}
+  m_LocalPosition: {x: -0.06881414, y: -0.05960243, z: 0.10199993}
   m_LocalScale: {x: 0.24, y: 0.24, z: 0.24}
   m_Children: []
   m_Father: {fileID: 1445725668}
@@ -9994,7 +9993,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d9cc804eb1b24b54b8990f24415c3de6, type: 2}
+  - {fileID: 2100000, guid: ba9fb7af4e0ecd94cbe1808807a5a02d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10381,15 +10380,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: oxigeno
+  mTrackableName: 6_OROS
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PracticaAR.xml
+  mDataSetPath: Vuforia/ARTest_images.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5081968
+  mAspectRatio: 1.5115167
   mImageTargetType: 0
-  mWidth: 0.059673913
-  mHeight: 0.09
+  mWidth: 0.06
+  mHeight: 0.090691
 --- !u!4 &1362873432
 Transform:
   m_ObjectHideFlags: 0
@@ -10398,12 +10397,11 @@ Transform:
   m_GameObject: {fileID: 1362873426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.090691, y: 0.090691, z: 0.090691}
   m_Children:
   - {fileID: 1680452086}
-  - {fileID: 994784125}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1362873433
 MonoBehaviour:
@@ -10425,10 +10423,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1362873426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0947e4851a5046b4ea3f4e60a4e681f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5131adffa4588d242b3c0c304aa0d040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlador: {fileID: 812024221}
+  controladorMoleculas: {fileID: 812024220}
 --- !u!1 &1368734486
 GameObject:
   m_ObjectHideFlags: 0
@@ -10530,7 +10528,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.33152172, y: 0, z: 0.5}
+      m_Extent: {x: 0.32539725, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -10583,7 +10581,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 37bda9be00000000000000bf000000000000803f00000000000000000000000037bda9be000000000000003f000000000000803f00000000000000000000803f37bda93e00000000000000bf000000000000803f000000000000803f0000000037bda93e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 789aa6be00000000000000bf000000000000803f000000000000000000000000789aa6be000000000000003f000000000000803f00000000000000000000803f789aa63e00000000000000bf000000000000803f000000000000803f00000000789aa63e000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -10744,8 +10742,9 @@ Transform:
   m_Children:
   - {fileID: 1329091229}
   - {fileID: 449861275}
+  - {fileID: 67344435}
   m_Father: {fileID: 71652889}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431433304
 GameObject:
@@ -10926,15 +10925,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: sodio
+  mTrackableName: 8_OROS
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PracticaAR.xml
+  mDataSetPath: Vuforia/ARTest_images.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5081968
+  mAspectRatio: 1.5296834
   mImageTargetType: 0
-  mWidth: 0.059673913
-  mHeight: 0.09
+  mWidth: 0.06
+  mHeight: 0.091781
 --- !u!4 &1435734959
 Transform:
   m_ObjectHideFlags: 0
@@ -10943,12 +10942,12 @@ Transform:
   m_GameObject: {fileID: 1435734953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.091781, y: 0.091781, z: 0.091781}
   m_Children:
   - {fileID: 423912564}
   - {fileID: 694640263}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1435734960
 MonoBehaviour:
@@ -10989,15 +10988,15 @@ RectTransform:
   m_GameObject: {fileID: 1441240794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.69999987}
-  m_LocalScale: {x: -11.11111, y: 3.8514433, z: 11.111109}
+  m_LocalScale: {x: -11.111109, y: 3.851443, z: 11.111108}
   m_Children:
   - {fileID: 711779157}
   - {fileID: 1137049677}
   - {fileID: 1303207615}
   - {fileID: 1243003976}
   - {fileID: 1652648009}
-  m_Father: {fileID: 1012302442}
-  m_RootOrder: 1
+  m_Father: {fileID: 958488016}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11081,7 +11080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445725668}
   m_Layer: 0
-  m_Name: moleculaMetano
+  m_Name: MoleculaMetano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11094,7 +11093,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1445725667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.217848, y: 0.005922107, z: 0.008999996}
+  m_LocalPosition: {x: 0.005151972, y: 0.005922107, z: -0.117}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 74144342}
@@ -11103,7 +11102,7 @@ Transform:
   - {fileID: 1074152655}
   - {fileID: 1711633859}
   m_Father: {fileID: 812024222}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450025989
 GameObject:
@@ -11284,15 +11283,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: cloro
+  mTrackableName: 9_OROS
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PracticaAR.xml
+  mDataSetPath: Vuforia/ARTest_images.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5081968
+  mAspectRatio: 1.5154834
   mImageTargetType: 0
-  mWidth: 0.059673913
-  mHeight: 0.09
+  mWidth: 0.06
+  mHeight: 0.090929
 --- !u!4 &1452562281
 Transform:
   m_ObjectHideFlags: 0
@@ -11301,12 +11300,12 @@ Transform:
   m_GameObject: {fileID: 1452562275}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.090929, y: 0.090929, z: 0.090929}
   m_Children:
   - {fileID: 49308831}
   - {fileID: 997431270}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1452562282
 MonoBehaviour:
@@ -12097,15 +12096,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: nitrogeno
+  mTrackableName: 4_OROS
   mPreserveChildSize: 0
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PracticaAR.xml
+  mDataSetPath: Vuforia/ARTest_images.xml
   mExtendedTracking: 0
-  mAspectRatio: 1.5081968
+  mAspectRatio: 1.5365833
   mImageTargetType: 0
-  mWidth: 0.059673913
-  mHeight: 0.09
+  mWidth: 0.06
+  mHeight: 0.092195
 --- !u!4 &1571728358
 Transform:
   m_ObjectHideFlags: 0
@@ -12114,13 +12113,12 @@ Transform:
   m_GameObject: {fileID: 1571728352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.2, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.092195, y: 0.092195, z: 0.092195}
   m_Children:
   - {fileID: 1499948960}
   - {fileID: 1120681430}
-  - {fileID: 166675995}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1571728359
 MonoBehaviour:
@@ -12739,6 +12737,7 @@ Transform:
   m_Children:
   - {fileID: 1903776264}
   - {fileID: 977318288}
+  - {fileID: 994784125}
   m_Father: {fileID: 1362873432}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12767,7 +12766,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1711633858}
   m_LocalRotation: {x: -0, y: -0, z: -0.24982555, w: 0.96829087}
-  m_LocalPosition: {x: 2.6687088, y: -0.059266284, z: -0.1020001}
+  m_LocalPosition: {x: 0.14541808, y: -0.059266284, z: -0.1020001}
   m_LocalScale: {x: 0.24, y: 0.24, z: 0.24}
   m_Children: []
   m_Father: {fileID: 1445725668}
@@ -13415,7 +13414,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d9cc804eb1b24b54b8990f24415c3de6, type: 2}
+  - {fileID: 2100000, guid: ba9fb7af4e0ecd94cbe1808807a5a02d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14772,7 +14771,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.33152172, y: 0, z: 0.5}
+      m_Extent: {x: 0.32305306, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -14825,7 +14824,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 37bda9be00000000000000bf000000000000803f00000000000000000000000037bda9be000000000000003f000000000000803f00000000000000000000803f37bda93e00000000000000bf000000000000803f000000000000803f0000000037bda93e000000000000003f000000000000803f000000000000803f0000803f
+    _typelessdata: 3667a5be00000000000000bf00000000ffff7f3f0000000000000000000000003667a5be000000000000003f00000000ffff7f3f00000000000000000000803f3667a53e00000000000000bf00000000ffff7f3f000000000000803f000000003667a53e000000000000003f00000000ffff7f3f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -15078,7 +15077,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134412490}
   m_LocalRotation: {x: -0, y: -0, z: 0.25134388, w: 0.96789783}
-  m_LocalPosition: {x: 2.6685228, y: 0.05960243, z: 0.10199993}
+  m_LocalPosition: {x: 0.14523211, y: 0.05960243, z: 0.10199993}
   m_LocalScale: {x: 0.24, y: 0.24, z: 0.24}
   m_Children: []
   m_Father: {fileID: 1445725668}
