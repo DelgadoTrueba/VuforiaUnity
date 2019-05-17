@@ -3146,7 +3146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Caracter\xEDsticas: 1"
+  m_Text: "\n\n\nCaracter\xEDsticas:\n\t\t Incoloro\n \t\t Inodoro"
 --- !u!222 &400081956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4279,7 +4279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Estado Fisico: '
+  m_Text: 'Estado Fisico: Gas'
 --- !u!222 &503734460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4292,7 +4292,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: cloroMaterial
+  m_Name: oxigenoMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -4305,7 +4305,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 81c9904fcb474a3da0be540ef9103dd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 566f0e5c3bef4dcf974bf770fbddacb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -6745,7 +6745,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Caracter\xEDsticas: 1"
+  m_Text: "\n\n\nCaracter\xEDsticas:\n \t\tIncoloro"
 --- !u!222 &839621215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8267,7 +8267,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Caracter\xEDsticas: 1"
+  m_Text: "\n\n\nCaracter\xEDsticas:\n \t\tInodoro\n \t\tIncoloro\n  \t\tIns\xEDpido"
 --- !u!222 &978991860
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8883,7 +8883,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Estado Fisico: '
+  m_Text: 'Estado Fisico: Liquido'
 --- !u!222 &1007988495
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10107,7 +10107,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Caracter\xEDsticas: 1"
+  m_Text: "\t\n\t\n\nCaracter\xEDsticas:\n \t\tIns\xEDpido\n\t\tIncoloro\n\t\tInodoro"
 --- !u!222 &1164611918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10591,7 +10591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Caracter\xEDsticas: 1"
+  m_Text: "\n\nCaracter\xEDsticas:\n \t\tIncoloro"
 --- !u!222 &1199459664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10665,7 +10665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Estado Fisico: '
+  m_Text: "Estado Fisico: S\xF3lido"
 --- !u!222 &1201267581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13543,7 +13543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Estado Fisico: '
+  m_Text: 'Estado Fisico: Gas'
 --- !u!222 &1537530159
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16717,7 +16717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Estado Fisico: '
+  m_Text: 'Estado Fisico: Gas'
 --- !u!222 &2059920375
 CanvasRenderer:
   m_ObjectHideFlags: 0
