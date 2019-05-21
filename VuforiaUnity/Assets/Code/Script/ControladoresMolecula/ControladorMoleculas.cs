@@ -72,75 +72,92 @@ public class ControladorMoleculas : MonoBehaviour {
 			Vector3 posOxigeno = targetOxigeno.transform.position;
 			Vector3 posHidrogeno = targetHidrogeno.transform.position;
 
-			if (distanciaMinimaParaGenerarMoledula(posOxigeno, posHidrogeno))
-			{
+			if (distanciaMinimaParaGenerarMoledula (posOxigeno, posHidrogeno)) {
 				moleculaDeAgua.transform.position = 
 					calcularPtoMedio (posOxigeno, posHidrogeno);
 
 				atomoOxigeno.SetActive (false);
 				atomoHidrogeno.SetActive (false);
 				moleculaDeAgua.SetActive (true);
-			} 
+			} else {
+				atomoOxigeno.SetActive (true);
+				atomoHidrogeno.SetActive (true);
+				moleculaDeAgua.SetActive (false);
+			}
 		}
 		else if(condicionesNecesariasMoledulaDeMetano())
 		{
 			Vector3 posCarbono = targetCarbono.transform.position;
 			Vector3 posHidrogeno = targetHidrogeno.transform.position;
 
-			if (distanciaMinimaParaGenerarMoledula(posCarbono, posHidrogeno))
-			{
+			if (distanciaMinimaParaGenerarMoledula (posCarbono, posHidrogeno)) {
 				moleculaDeMetano.transform.position = 
 					calcularPtoMedio (posCarbono, posHidrogeno);
 
 				atomoCarbono.SetActive (false);
 				atomoHidrogeno.SetActive (false);
 				moleculaDeMetano.SetActive (true);
-			} 
+			} else {
+				atomoCarbono.SetActive (true);
+				atomoHidrogeno.SetActive (true);
+				moleculaDeMetano.SetActive (false);
+			}
 		}
 		else if(condicionesNecesariasMoledulaDeAmoniaco())
 		{
 			Vector3 posNitrogeno = targetNitrogeno.transform.position;
 			Vector3 posHidrogeno = targetHidrogeno.transform.position;
 
-			if (distanciaMinimaParaGenerarMoledula(posNitrogeno, posHidrogeno))
-			{
+			if (distanciaMinimaParaGenerarMoledula (posNitrogeno, posHidrogeno)) {
 				moleculaDeAmoniaco.transform.position = 
 					calcularPtoMedio (posNitrogeno, posHidrogeno);
 
 				atomoNitrogeno.SetActive (false);
 				atomoHidrogeno.SetActive (false);
 				moleculaDeAmoniaco.SetActive (true);
-			} 
+			} else {
+				atomoNitrogeno.SetActive (true);
+				atomoHidrogeno.SetActive (true);
+				moleculaDeAmoniaco.SetActive (false);
+			}
 		}
 		else if(condicionesNecesariasMoledulaDeMonoxidoDeCarbono())
 		{
 			Vector3 posCarbono = targetCarbono.transform.position;
 			Vector3 posOxigeno = targetOxigeno.transform.position;
 
-			if (distanciaMinimaParaGenerarMoledula(posCarbono, posOxigeno))
-			{
+			if (distanciaMinimaParaGenerarMoledula (posCarbono, posOxigeno)) {
 				moleculaDeMonoxidoDeCarbono.transform.position = 
 					calcularPtoMedio (posCarbono, posOxigeno);
 
 				atomoCarbono.SetActive (false);
 				atomoOxigeno.SetActive (false);
 				moleculaDeMonoxidoDeCarbono.SetActive (true);
-			} 
+			} else {
+				atomoCarbono.SetActive (true);
+				atomoOxigeno.SetActive (true);
+				moleculaDeMonoxidoDeCarbono.SetActive (false);
+			}
 		}
 		else if(condicionesNecesariasMoledulaDeSalComun())
 		{
 			Vector3 posSodio = targetSodio.transform.position;
 			Vector3 posCloro = targetCloro.transform.position;
 
-			if (distanciaMinimaParaGenerarMoledula(posSodio, posCloro))
-			{
+			if (distanciaMinimaParaGenerarMoledula (posSodio, posCloro)) {
 				moleculaDeSalComun.transform.position = 
 					calcularPtoMedio (posSodio, posCloro);
 
 				atomoSodio.SetActive (false);
 				atomoCloro.SetActive (false);
 				moleculaDeSalComun.SetActive (true);
-			} 
+			} else 
+			{
+				atomoSodio.SetActive (true);
+				atomoCloro.SetActive (true);
+				moleculaDeSalComun.SetActive (false);
+			}
+
 		}
 		else 
 		{
@@ -198,7 +215,7 @@ public class ControladorMoleculas : MonoBehaviour {
 
 		Debug.Log(Resultado);
 
-		return (Mathf.Abs (Resultado.x) <= 0.1f || Mathf.Abs (Resultado.y) <= 0.1f || Mathf.Abs (Resultado.z) <= 0.1f);
+		return (Mathf.Abs (Resultado.x) <= 0.1f && Mathf.Abs (Resultado.y) <= 0.1f && Mathf.Abs (Resultado.z) <= 0.1f);
 	}
 
 
